@@ -1,0 +1,22 @@
+{
+    "name": "deanblackborough/docker-compose-quick-start",
+    "description": "Quick start for a PHP/MySQL web app ",
+    "homepage": "http://www.transmute-coffee.com/",
+    "keywords": [ "docker", "docker-compose", "php", "mysql", "quickstart"],
+    "authors": [
+        {
+            "name": "Dean Blackborough",
+            "email": "dean@g3d-development.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/deanblackborough/docker-compose-quick-start"
+        }
+    ],
+    "license": "MIT"
+}
