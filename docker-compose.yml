@@ -8,7 +8,8 @@ services:
     ports:
       - 80:80
     volumes:
-      - .:/app/php
+      - .:/var/www/html
+      - /var/www/html/vendor
     links:
       - mysql
     environment:
@@ -26,4 +27,4 @@ services:
       MYSQL_PASSWORD: quickstart_password
       MYSQL_ROOT_PASSWORD: root
     volumes:
-      - ./app/mysql/data:/var/lib/mysql
+      - ./.docker/mysql/data:/var/lib/mysql

@@ -1,3 +1,2 @@
 vendor/
-app/mysql/data
-app/php
+.docker/mysql
